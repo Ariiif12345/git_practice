@@ -4,7 +4,7 @@ on:
 env:
   DOCKER_USERNAME: ${{vars.DOCKER_NAME}}
   DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-  DOCKER_IMAGE: yash0089/my-python-project
+  DOCKER_IMAGE: mdarif39/my-python-project
 jobs:
   build-using-docker:
     runs-on: ubuntu-latest
@@ -29,7 +29,7 @@ on:
 env:
   DOCKER_USERNAME: ${{vars.DOCKER_NAME}}
   DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-  DOCKER_IMAGE: yash0089/my-python-project
+  DOCKER_IMAGE: mdarif379/my-python-project
 jobs:
   build-using-docker:
     runs-on: ubuntu-latest
@@ -54,7 +54,7 @@ on:
 env:
   DOCKER_USERNAME: ${{vars.DOCKER_NAME}}
   DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-  DOCKER_IMAGE: yash0089/my-python-project
+  DOCKER_IMAGE: mdarif379/my-python-project
 jobs:
   build-using-docker:
     runs-on: ubuntu-latest
